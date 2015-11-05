@@ -23,28 +23,6 @@
                         <field name="NUM">1500</field>
                       </block>
                     </value>
-                    <next>
-                      <block type="controls_if" id="43" inline="false">
-                        <value name="IF0">
-                          <block type="sensor_object" id="23">
-                            <field name="OBJECT">LEFTFRONT</field>
-                          </block>
-                        </value>
-                        <statement name="DO0">
-                          <block type="movement_right" id="55">
-                            <next>
-                              <block type="robot_delay" id="57" inline="true">
-                                <value name="DELAY">
-                                  <block type="math_number" id="84">
-                                    <field name="NUM">1500</field>
-                                  </block>
-                                </value>
-                              </block>
-                            </next>
-                          </block>
-                        </statement>
-                      </block>
-                    </next>
                   </block>
                 </next>
               </block>
