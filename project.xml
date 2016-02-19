@@ -1,51 +1,13 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="1" inline="true" x="229" y="137">
-    <value name="TIMES">
-      <block type="math_number" id="2">
-        <field name="NUM">4</field>
-      </block>
-    </value>
-    <statement name="DO">
-      <block type="movement_forward" id="3">
-        <next>
-          <block type="robot_delay" id="4" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="5">
-                <field name="NUM">5000</field>
-              </block>
-            </value>
-            <next>
-              <block type="movement_forward" id="6">
-                <next>
-                  <block type="robot_delay" id="7" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="8">
-                        <field name="NUM">250</field>
-                      </block>
-                    </value>
-                    <next>
-                      <block type="movement_right" id="9">
-                        <next>
-                          <block type="robot_delay" id="10" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="11">
-                                <field name="NUM">1420</field>
-                              </block>
-                            </value>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
+  <block type="movement_forward" id="6" x="337" y="139">
     <next>
-      <block type="movement_stop" id="12"></block>
+      <block type="robot_delay" id="10" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="11">
+            <field name="NUM">1420</field>
+          </block>
+        </value>
+      </block>
     </next>
   </block>
 </xml>
