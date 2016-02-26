@@ -17,7 +17,7 @@
             <field name="TEXT">HI</field>
             <next>
               <block type="multimedia_playwav" id="149">
-                <field name="WAV">mooooo</field>
+                <field name="WAV">sonar</field>
                 <next>
                   <block type="movement_forward" id="6">
                     <next>
