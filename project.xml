@@ -14,18 +14,23 @@
         </value>
         <next>
           <block type="oled_drawtext" id="5">
-            <field name="TEXT">          o                                                           o                                            </field>
+            <field name="TEXT">HI</field>
             <next>
-              <block type="movement_forward" id="6">
+              <block type="multimedia_playwav" id="149">
+                <field name="WAV">beep</field>
                 <next>
-                  <block type="robot_delay" id="7" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="8">
-                        <field name="NUM">5000</field>
-                      </block>
-                    </value>
+                  <block type="movement_forward" id="6">
                     <next>
-                      <block type="movement_stop" id="9"></block>
+                      <block type="robot_delay" id="7" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="8">
+                            <field name="NUM">5000</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="movement_stop" id="9"></block>
+                        </next>
+                      </block>
                     </next>
                   </block>
                 </next>
