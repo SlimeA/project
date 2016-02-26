@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="5">
-            <field name="TEXT">HI</field>
+            <field name="TEXT">UNILLAMAGER</field>
             <next>
               <block type="multimedia_playwav" id="149">
                 <field name="WAV">beep</field>
