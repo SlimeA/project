@@ -25,7 +25,18 @@
                       </block>
                     </value>
                     <next>
-                      <block type="movement_stop" id="9"></block>
+                      <block type="movement_stop" id="9">
+                        <next>
+                          <block type="multimedia_volume" id="71">
+                            <field name="VOLUME">HIGH</field>
+                            <next>
+                              <block type="multimedia_playwav" id="84">
+                                <field name="WAV"></field>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
                     </next>
                   </block>
                 </next>
