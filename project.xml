@@ -25,30 +25,7 @@
                       </block>
                     </value>
                     <next>
-                      <block type="multimedia_volume" id="71">
-                        <field name="VOLUME">HIGH</field>
-                        <next>
-                          <block type="multimedia_playwav" id="84">
-                            <field name="WAV">hi</field>
-                            <next>
-                              <block type="movement_forward" id="99">
-                                <next>
-                                  <block type="robot_delay" id="96" inline="true">
-                                    <value name="DELAY">
-                                      <block type="math_number" id="97">
-                                        <field name="NUM">833.333</field>
-                                      </block>
-                                    </value>
-                                    <next>
-                                      <block type="movement_stop" id="9"></block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
+                      <block type="movement_stop" id="9"></block>
                     </next>
                   </block>
                 </next>
