@@ -20,7 +20,7 @@
                 <field name="VOLUME">LOW</field>
                 <next>
                   <block type="multimedia_playwav" id="149">
-                    <field name="WAV">beep</field>
+                    <field name="WAV">sndtest.w</field>
                     <next>
                       <block type="multimedia_playwav" id="156">
                         <field name="WAV">beep</field>
