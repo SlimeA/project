@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="5">
-            <field name="TEXT">UNILLAMAGER</field>
+            <field name="TEXT">          o                                                           o                                            </field>
             <next>
               <block type="movement_forward" id="6">
                 <next>
