@@ -21,18 +21,15 @@
                   <block type="robot_delay" id="7" inline="true">
                     <value name="DELAY">
                       <block type="math_number" id="8">
-                        <field name="NUM">2500</field>
+                        <field name="NUM">5000</field>
                       </block>
                     </value>
                     <next>
-                      <block type="movement_forward" id="98">
+                      <block type="multimedia_volume" id="71">
+                        <field name="VOLUME">HIGH</field>
                         <next>
-                          <block type="robot_delay" id="94" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="95">
-                                <field name="NUM">2500</field>
-                              </block>
-                            </value>
+                          <block type="multimedia_playwav" id="84">
+                            <field name="WAV">hi</field>
                             <next>
                               <block type="movement_forward" id="99">
                                 <next>
@@ -43,17 +40,7 @@
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="multimedia_volume" id="71">
-                                        <field name="VOLUME">HIGH</field>
-                                        <next>
-                                          <block type="multimedia_playwav" id="84">
-                                            <field name="WAV">hi</field>
-                                            <next>
-                                              <block type="movement_stop" id="9"></block>
-                                            </next>
-                                          </block>
-                                        </next>
-                                      </block>
+                                      <block type="movement_stop" id="9"></block>
                                     </next>
                                   </block>
                                 </next>
