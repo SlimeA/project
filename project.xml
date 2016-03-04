@@ -13,7 +13,7 @@
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="50">
+          <block type="oled_drawtext" id="5">
             <field name="TEXT">I AM A LLAMA</field>
             <next>
               <block type="multimedia_volume" id="6">
@@ -22,33 +22,33 @@
                   <block type="multimedia_playwav" id="7">
                     <field name="WAV">beep</field>
                     <next>
-                      <block type="movement_stutter" id="24">
+                      <block type="movement_stutter" id="8">
                         <next>
-                          <block type="robot_delay" id="25" inline="true">
+                          <block type="robot_delay" id="9" inline="true">
                             <value name="DELAY">
-                              <block type="math_number" id="26">
+                              <block type="math_number" id="10">
                                 <field name="NUM">1000</field>
                               </block>
                             </value>
                             <next>
-                              <block type="movement_forward" id="8">
+                              <block type="movement_forward" id="11">
                                 <next>
-                                  <block type="robot_delay" id="9" inline="true">
+                                  <block type="robot_delay" id="12" inline="true">
                                     <value name="DELAY">
-                                      <block type="math_number" id="10">
+                                      <block type="math_number" id="13">
                                         <field name="NUM">5000</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="movement_stop" id="11">
+                                      <block type="movement_stop" id="14">
                                         <next>
-                                          <block type="multimedia_playwav" id="12">
+                                          <block type="multimedia_playwav" id="15">
                                             <field name="WAV">beep</field>
                                             <next>
-                                              <block type="multimedia_playwav" id="13">
+                                              <block type="multimedia_playwav" id="16">
                                                 <field name="WAV">beep</field>
                                                 <next>
-                                                  <block type="multimedia_playwav" id="14">
+                                                  <block type="multimedia_playwav" id="17">
                                                     <field name="WAV">beep</field>
                                                   </block>
                                                 </next>
